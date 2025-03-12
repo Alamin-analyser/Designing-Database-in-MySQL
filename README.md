@@ -11,15 +11,25 @@ To begin, it's essential to understand the specific data the database will need 
 ## Designing the Database Schema
 
 To structure the database efficiently, I would create the following tables:
-•	Products: This table will store information about the items for sale, such as name, price, and quantity.
+
+Products: This table will store information about the items for sale, such as name, price, and quantity.
+
 Columns: ProductID (Primary Key), Name, Price, QuantityInStock, Category.
-•	Sales: This table tracks each sale made, linking products and customers.
+
+Sales: This table tracks each sale made, linking products and customers.
+
 Columns: SaleID (Primary Key), SaleDate, CustomerID (Foreign Key), TotalAmount.
-•	SalesDetails: This table captures individual items in each sale, linking sales to products.
+
+SalesDetails: This table captures individual items in each sale, linking sales to products.
+
 Columns: SaleDetailID (Primary Key), SaleID (Foreign Key), ProductID (Foreign Key), QuantitySold, PriceEach.
-•	Customers: Contains information about each customer, including loyalty program data.
+
+Customers: Contains information about each customer, including loyalty program data.
+
 Columns: CustomerID (Primary Key), Name, Email, LoyaltyPoints.
-•	LoyaltyPrograms: This table stores information on customer loyalty programs, including points thresholds for rewards.
+
+LoyaltyPrograms: This table stores information on customer loyalty programs, including points thresholds for rewards.
+
 Columns: LoyaltyID (Primary Key), CustomerID (Foreign Key), PointsAccumulated.
 
 
