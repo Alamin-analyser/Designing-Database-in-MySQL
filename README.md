@@ -22,9 +22,9 @@ To structure the database efficiently, I would create the following tables:
 **LoyaltyPrograms:** LoyaltyID (Primary Key), CustomerID (Foreign Key), PointsAccumulated.
 
 
-![alt text](MySQL/Image1.png)
+![alt text](MySQL_Image/Image1.png)
 
-![alt text](MySQL/Image2.png)
+![alt text](MySQL_Image/Image2.png)
 
 ## 5. Maintaining the Database
 
