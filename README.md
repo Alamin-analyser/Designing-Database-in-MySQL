@@ -31,6 +31,8 @@ To structure the database efficiently, I would create the following tables:
 To ensure the database remains accurate and up to date, regular updates, backups and security measures should  follow all the time.
 In conclusion, creating a database for a small retail business involves understanding the business's operational needs, designing an efficient schema, implementing it using SQL, and ensuring ongoing maintenance to keep the system up to date and secure. By following these steps, the business can streamline its operations and improve customer service through better data management. 
 
+**Data Source: Just IT, Google, ChatGPT**
+
 **Full Project work book [here.](https://drive.google.com/file/d/1KvpRfRj3oqRCZWXcdVUwgIrGioSe2gOc/view?usp=drive_link)**
 
 **Click [here](https://github.com/Alamin-analyser/Settingup-Database-in-MySQL) to see another Python Project.**
